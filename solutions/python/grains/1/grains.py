@@ -13,4 +13,6 @@ def total():
     for n in range(1, 65):
         sum += 2 ** (n - 1)
     return sum    
-        
+
+def total_by_using_sum():
+   return sum(square(n) for n in range(1, 65))
