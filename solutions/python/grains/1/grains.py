@@ -8,7 +8,6 @@ def square(number):
 
 
 def total():
-    # return sum(square(n) for n in range(1, 65))
     sum = 0
     for n in range(1, 65):
         sum += 2 ** (n - 1)
